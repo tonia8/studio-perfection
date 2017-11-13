@@ -5,30 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beauty studio Perfection</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 </head>
 <body>
         <header>
-			<nav>
-			    <ul>
-			        <li>Home</li>
-			        <li>About us</li>
-			        <li>Services</li>
-			        <li>Contakts</li>
-			        <li>Book now</li>
-			    </ul>
-			</nav>
+			<ul>
+			    <li><a href="#">Home</a></li>
+			    <li><a href="#">About us</a></li>
+			    <li><a href="#">Services</a></li>
+			    <li><a href="#">Contakts</a></li>
+			    <li><a href="#">Book now</a></li>
+			</ul>
+			<div class="float-l logo"><img src="face.jpg" alt="beautiful face"></div>
+            <div class="float-l"><h1>Beauty studio Perfection</h1></div>
 		</header>
 		<main>
-	        <div><img src="face.jpg" alt="beautiful face" width="300" height="400">
-            </div>
-            <div><h1>Beauty studio Perfection</h1></div>	
-            <div><img src="beauty-and-make-up.jpg" alt="make up face" width="1300" height="600"></div>
-	        <div><p>We're here to help perfect your outer beauty.<br>The inner is up to you...</p></div>
-	        <hr>
-	        <h2>READY TO LOOK & FEEL YOUR BEST?</h2>
-	        <div>
-	        <h3> SEND US A MESSAGE</h3>
+            <div class="float-l><img src="beauty-and-make-up.jpg" alt="make up face" width="1200" height="500"></div>
+	        <div class="float-l"><p class="motto">We're here to help perfect your outer beauty.<br>The inner is up to you...</p></div>
+	        <hr class="float-l">
+	        <h2 class="float-l">READY TO LOOK & FEEL YOUR BEST?</h2>
+	        <div class="float-l">
+	        <h3>SEND US A MESSAGE</h3>
 	        <form id="contact" method="post" action="https://formspree.io/tonjchyk@gmail.com">
 	            <fieldset>
 	                <label id="name">Name</label>
@@ -49,13 +47,14 @@
 	            <input type="submit" name="submit" value="Sent">
 	        </form>
 	        </div>
-	        <aside>
-	        	<p>OPENING HOURS:<br>Monday 9am-6pm<br>Tuesday 9am-6pm<br>Wednesday 9am-6pm<br>
+	        <aside class="float-l">
+	        	<h3>OPENING HOURS:</h3>
+	        <br><p>Monday 9am-6pm<br>Tuesday 9am-6pm<br>Wednesday 9am-6pm<br>
 	            Thursday 9am-6pm<br>Friday 9am-6pm<br>Saturday 8am-5pm<br>Sunday 9am-3pm</p>
 	        </aside>
-	        <h3>FIND US ON MAP</h3>
+	        <div class="float-l"><h3>FIND US ON MAP</h3></div>
 		</main>
-			<footer>
+			<footer class="clear">
 			    <div><p>Phone:032-2-12-34-56</p>
 			    <p>Adress:Some str.8</p>
 			    <p>E-Mail:perfection.beautystudio@gmail.com</p>

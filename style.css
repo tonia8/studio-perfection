@@ -1,0 +1,103 @@
+html{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+body{
+    background-color: #FBF5EF;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+ul{
+    width:90%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    display: block;
+    width: 200px;
+    padding: 15px 0;
+    margin-bottom: 5px;
+    border-radius: 15%;
+    text-align: center;
+    background: black;
+    color:white;
+    text-decoration: none;
+    font-family: Arial, solid;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
+.float-l{
+    float: left;
+}
+.clear{
+    clear:both;
+}
+.logo{
+    display: block;
+    width: 40%;
+    height: inherit;
+    
+}
+.logo img{
+    width:220px;
+    height: 280px;
+    margin-left: 150px;
+}
+div h1{
+    display: block;
+    background-color: white;
+    width: 90%;
+    font-family: Georgia;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    }
+    
+
+.motto{
+    display: block;
+    width: 50%;
+    margin-left:200px;
+    font-family: Georgia;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style:normal;
+    text-align: center;
+    position: inherit;
+    float: left;
+}
+hr{
+    width: 100%;
+    display: block;
+    border-style:inset;
+    border-width: 1px;
+}
+h2{
+    font-family: Arial, solid;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    font-family: Arial, solid;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;}
+    aside{
+        background-color: #F5BCA9;
+        width: 33%;
+    }
+    
