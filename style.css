@@ -172,6 +172,15 @@ nav a{
     color:white;
     text-align:center;
 }
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: red;
+	}
+a:hover { 
+	text-decoration: underline;
+	}
 .pad-r{
  padding-right:100px;}   
     
