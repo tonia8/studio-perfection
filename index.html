@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 </head>
 <body>
+	<div id="container">
         <header>
 			<ul>
 			    <li><a href="#">Home</a></li>
@@ -21,11 +22,14 @@
             <div class="float-l"><h1>Beauty studio Perfection</h1></div>
 		</header>
 		<main>
-            <div class="float-l><img src="beauty-and-make-up.jpg" alt="make up face" width="1200" height="500"></div>
-	        <div class="float-l"><p class="motto">We're here to help perfect your outer beauty.<br>The inner is up to you...</p></div>
+            <div class="float-l"><img class="mainimg" src="beauty-and-make-up.jpg" alt="make up face"></div>
+	        <div><p class="motto">We're here to help perfect your outer beauty.<br>The inner is up to you...</p></div>
 	        <hr class="float-l">
-	        <h2 class="float-l">READY TO LOOK & FEEL YOUR BEST?</h2>
-	        <div class="float-l">
+	        <div class="center float-l">
+	        	<h2>READY TO LOOK & FEEL YOUR BEST?</h2>
+	        </div>
+	        <div class="contact_us">
+	        	<div class="left">
 	        <h3>SEND US A MESSAGE</h3>
 	        <form id="contact" method="post" action="https://formspree.io/tonjchyk@gmail.com">
 	            <fieldset>
@@ -33,7 +37,7 @@
 	                <input type="text" name="name" required>
 	            </fieldset>
 	            <fieldset>
-	                <label id="email">E-Mail Adress</label>
+	                <label id="email">E-Mail</label>
 	                <input type="email" name="email" required>
 	            </fieldset>
 	            <fieldset>
@@ -47,20 +51,35 @@
 	            <input type="submit" name="submit" value="Sent">
 	        </form>
 	        </div>
-	        <aside class="float-l">
+	        <aside class="right">
 	        	<h3>OPENING HOURS:</h3>
 	        <br><p>Monday 9am-6pm<br>Tuesday 9am-6pm<br>Wednesday 9am-6pm<br>
 	            Thursday 9am-6pm<br>Friday 9am-6pm<br>Saturday 8am-5pm<br>Sunday 9am-3pm</p>
 	        </aside>
-	        <div class="float-l"><h3>FIND US ON MAP</h3></div>
+	        </div>
+	         <div class="left">
+	         	<h3>FIND US ON MAP</h3>
+	            <div class="map"></div>
+	         </div>
 		</main>
-			<footer class="clear">
-			    <div><p>Phone:032-2-12-34-56</p>
-			    <p>Adress:Some str.8</p>
-			    <p>E-Mail:perfection.beautystudio@gmail.com</p>
+			<footer id="contacts" class="clear">
+			    <div class="float-l pad-r">
+			    	<p>Phone:032-2-12-34-56</p>
+			    	<p>Adress:Some str.8</p>
+			    	<p>E-Mail:perfection.beautystudio@gmail.com</p>
 			    </div>
-			    <div>FOLLOW US ON</div>
-			</footer>
-    <nav></nav>
+			    <div class="float-l"><h3>FOLLOW US ON</h3>
+			    <img src="facebook.png" alt="facebook-icon">
+			    <img src="instagram.jpg" alt="instagram-icon">
+			    </div>
+                <nav class="float-l right">
+    	<a href="#">Home</a>
+	    <a href="#">About us</a>
+        <a href="#">Services</a>
+	    <a href="#">Contakts</a>
+	    <a href="#">Book now</a>
+               </nav>
+    	 </footer>
+    </div>
 </body>
 </html>

@@ -9,9 +9,15 @@ body{
     margin-left: 10px;
     margin-right:10px;
 }
+#container {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 80%;
+}
 header{
     display: block;
     margin: 0 auto;
+    margin-top:10px;
     width: 100%;
     height: 350px;
     background-color: white;
@@ -24,22 +30,29 @@ li{
     list-style: none;
     display: inline-block;
 }
-a{
+header a{
     display: block;
-    width: 200px;
+    width: 150px;
     padding: 15px 0;
     margin-bottom: 5px;
-    border-radius: 15%;
     text-align: center;
     background: black;
     color:white;
     text-decoration: none;
     font-family: Arial, solid;
-    font-size: 1.5em;
+    font-size:1.5em;
     font-weight: bold;
 } 
+main{
+    margin:10px 10px 10px 10px;
+    width: 100%;
+    height: 100%;}
+    
 .float-l{
     float: left;
+}
+.float-r{
+    float:right;
 }
 .clear{
     clear:both;
@@ -50,54 +63,115 @@ a{
     height: inherit;
     
 }
-.logo img{
+.logo img {
     width:220px;
     height: 280px;
     margin-left: 150px;
 }
-div h1{
+
+div h1 {
     display: block;
     background-color: white;
+    margin-top:20px;
     width: 90%;
-    font-family: Georgia;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     font-style: italic;
     text-align: center;
-    }
+    font-family: Bilbo, Georgia, Serif, serif;
+}
     
-
-.motto{
-    display: block;
-    width: 50%;
-    margin-left:200px;
+.mainimg {
+    height:500px;
+    width:1000px;
+}
+.motto {
+    width: 600px;
+    margin-right:20px;
     font-family: Georgia;
     font-size: 2.5em;
     font-weight: bold;
     font-style:normal;
-    text-align: center;
-    position: inherit;
-    float: left;
+    text-align: right;
+    float:right;
 }
-hr{
+hr {
     width: 100%;
     display: block;
     border-style:inset;
     border-width: 1px;
 }
-h2{
+.center {
+    margin:0 auto;
+    text-align: center;
     font-family: Arial, solid;
     font-size: 1.5em;
     font-weight: bold;
-    text-align: center;
 }
-h3{
+
+ h3{
     font-family: Arial, solid;
     font-size: 1em;
     font-weight: bold;
-    text-align: center;}
-    aside{
-        background-color: #F5BCA9;
-        width: 33%;
+    text-align:center;
+     }
+aside{display: block;
+      background-color: #F8E0E0;
+      width: 30%;
+      height:100%;
+      text-align: center;
     }
+.map {
+    width:100%;
+    height:200px;
+    border:#F8E0E0 double;
+    margin-bottom:20px;
+}  
+
+#contact{
+    height: 300px;
+    width: 600px;
+    
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    margin-right:20px;
+}
+
+.contact_us {
+    height: 300px;
+    width: 100%;
+    vertical-align: top;
+}
+#contacts {
+    height: 130px;
+    background:black;
+    color: white;
+    padding:20px;
+}
+#contacts p  {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#contacts img {
+    width: 40px;
+    height: 40px;
+    padding-right:20px;
+}
+nav a{
+    display:block;
+    color:white;
+    text-align:center;
+}
+.pad-r{
+ padding-right:100px;}   
     
