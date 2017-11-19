@@ -12,9 +12,23 @@ body {
 header {
     margin: 0 auto;
     width: 100%;
-    height: 400px;
+    max-height: 800px;
     background-color: inherit;
+    }
+.logo-container {display:grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-around;
+    
 }
+  @media(max-width:500px){
+    .logo-container {display:block;}
+         .logo-container div{
+    width: 100%;
+    float:left;}}
+
+    .logo-container>div {
+    width: auto;
+    }
 ul{
     width:100%;
     margin: 0 auto;
@@ -47,8 +61,11 @@ header a{
     clear:both;
 }
 .logo {
-    width: 40%;
-}
+    width: 100%;
+    }
+.logo img {
+        width:100%;
+    }
   div h1 {
     margin-top:1em;
     font-size: 3em;
@@ -137,7 +154,8 @@ hr {
     
 }
 footer {
-    height: 180px;
+    display: block;
+    max-height: 300px;
     background:black;
     color: white;
     margin: 0 auto;
@@ -146,7 +164,7 @@ footer {
 .contacts { 
     margin:10px 10px 10px 10px;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:50% 50%;
     justify-content: space-around;
     
 }
@@ -203,5 +221,4 @@ input,textarea {
     margin-bottom: 10px;
     background-color: black;
     color: white;
-    
 }
